@@ -1,0 +1,18 @@
+---
+- hosts: dockerhost
+
+  tasks:
+    - name: stop the exiting container
+      command: docker stop regappserver
+      ignore_errors: yes
+
+    - name: remov the container
+      command: docker rm regappserver
+      ignore_errors: yes
+
+    - name: remov docker image
+      command: docker rmi ujjwalubhale/regapp:latest
+      ignore_errors: yes
+
+    - name: create docker container
+      command: docker run -d --name regappserver -p 8083:8080 ujjwalubhale/regapp:latest

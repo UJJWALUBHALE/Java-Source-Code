@@ -1,0 +1,14 @@
+---
+- hosts: ansibleserver
+
+  tasks:
+    - name: build docker images
+      command: docker build -t regapp:latest .
+      args:
+        chdir: /opt/docker
+
+    - name: create tag to push image onto dockerhub
+      command: docker tag regapp:latest ujjwalubhale/regapp:latest
+
+    - name: push docker image
+      command: docker push ujjwalubhale/regapp:latest
