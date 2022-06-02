@@ -1,5 +1,7 @@
 ### DevOps Project ###
 
+![devops 1](https://user-images.githubusercontent.com/61089660/171560025-e78adf85-0b0b-47e7-8ac6-366728ff5ea3.JPG)
+
 "DevOps Project - CI/CD with Git, GitHub, Jenkins, Ansible, Tomcat, DockerHub, Docker and Kubernetes"
 
 In this project I have used a local version system as Git, GitHub as a distributed version system, Jenkins as a CI/CD tool, 
