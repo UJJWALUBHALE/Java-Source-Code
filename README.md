@@ -1,8 +1,6 @@
-# DevOps Project
+# DevOps Project-Integrated CI/CD with Git, GitHub, Jenkins, Ansible, Tomcat, Docker and Kubernetes.
 
 ![devops 1](https://user-images.githubusercontent.com/61089660/171560025-e78adf85-0b0b-47e7-8ac6-366728ff5ea3.JPG)
-
-# DevOps Project - Integrated CI/CD with Git, GitHub, Jenkins, Ansible, Tomcat, DockerHub, Docker and Kubernetes.
 
 In this project I have used a local version system as Git, GitHub as a distributed version system, Jenkins as a CI/CD tool, 
 Maven as a build tool, Ansible for configuration management under deployment tool, Tomcat as a application server, DockerHub as 
@@ -27,4 +25,4 @@ directory of the tomcat and from that Dockerfile I have created image for that i
 created ansible-playbook for to deploy an image over to dockerhub and deploy container onto Kubernetes, so that I have setup
 the Kubernetes cluster with the help of AWS-EKS and created manifest file for to delpoyment and service.
 
-So in this way I have setup a complete CICD pipeline for to deploy an artitcats over to the target environment.
+So in this way I have setup a complete CI/CD pipeline for to deploy an artitcats over to the target environment.
